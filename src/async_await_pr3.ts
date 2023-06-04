@@ -3,7 +3,7 @@ async function main2() {
 
     try {
         const fooContent = await readFile("foo.txt","utf8");
-        await writeFile("bar2.txt",fooContent+fooContent);
+        await writeFile("bar3.txt",fooContent+fooContent);
         console.log("書き込み終了しました");
     } catch (error) {
         console.log("失敗しました");

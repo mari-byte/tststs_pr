@@ -1,18 +1,9 @@
 "use strict";
-function nabee(minnum, maxnum) {
-    const results = [];
-    for (let i = minnum; i <= maxnum; i++) {
-        results.push(i);
+function arrcon(minu, manu) {
+    const res = [];
+    for (let i = minu; i <= manu; i++) {
+        res.push(i);
     }
-    return results;
+    return res;
 }
-console.log(nabee(1, 7));
-function nagurareya(omax, omini) {
-    const nannnimo = [];
-    for (let i = omax; i >= omini; i--) {
-        nannnimo.push(i);
-    }
-    return nannnimo;
-}
-console.log(nagurareya(10, 5));
-console.log(nagurareya(1, 3));
+console.log(arrcon(1, 7));

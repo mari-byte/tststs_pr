@@ -1,0 +1,1 @@
+const xRepeate = (argss:number): string => "X".repeat(num);
